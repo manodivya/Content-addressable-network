@@ -1,0 +1,12 @@
+dimension 2	# this is a comment
+# test whitespace convention
+        addNode(0.3,	0.25);
+	addNode(0.4,	0.8);
+	addNode(0.7,    0.1);
+	addNode(0.6,	0.9);
+	addNode(0.9,	0.375);	
+  ## operations
+insertItem(0.2,0.7,"Listen to the music");
+ find(0.3,0.25,"Listen to the music");
+deleteItem(0.2, 0.7, "Listen to the music"); 
+ find(0.9, 0.1, "Listen to the music");
